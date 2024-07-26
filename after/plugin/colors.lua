@@ -1,2 +1,2 @@
 vim.o.background = 'dark'
-vim.cmd.colorscheme 'kanagawa-paper'
+vim.cmd.colorscheme 'no-clown-fiesta'
