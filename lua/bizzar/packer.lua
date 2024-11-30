@@ -16,6 +16,8 @@ return require('packer').startup(function(use)
 
     use("theprimeagen/harpoon")
 
+    use "maxmx03/solarized.nvim"
+
     use {
       'VonHeikemen/lsp-zero.nvim',
       branch = 'v1.x',
@@ -44,8 +46,6 @@ return require('packer').startup(function(use)
 
     use 'navarasu/onedark.nvim'
 
-    use 'nvim-tree/nvim-tree.lua'
-
     use 'gbprod/phpactor.nvim'
 
     use 'nikvdp/neomux'
@@ -60,6 +60,9 @@ return require('packer').startup(function(use)
             require('Comment').setup()
         end
     }
+    
+    use 'rose-pine/neovim'
+
     use {
         'nvim-tree/nvim-tree.lua',
         requires = {

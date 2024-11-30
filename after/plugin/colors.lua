@@ -1,2 +1,6 @@
-vim.o.background = 'dark'
-vim.cmd.colorscheme 'no-clown-fiesta'
+function ColorMyPencils(color) 
+	color = color or "onedark"
+	vim.cmd.colorscheme(color)
+end
+
+ColorMyPencils()
