@@ -62,13 +62,7 @@ return require('packer').startup(function(use)
     }
     
     use 'rose-pine/neovim'
-
-    use {
-        'nvim-tree/nvim-tree.lua',
-        requires = {
-            'nvim-tree/nvim-web-devicons', -- optional
-        },
-    }
+    use { "rcarriga/nvim-dap-ui", requires = {"mfussenegger/nvim-dap", "nvim-neotest/nvim-nio"} }
 
     use "sho-87/kanagawa-paper.nvim"
 
@@ -76,4 +70,10 @@ return require('packer').startup(function(use)
 
     use 'lervag/vimtex'
 
+    use 'tanvirtin/monokai.nvim'
+
+    use 'ishan9299/nvim-solarized-lua'
+
+    use { "scottmckendry/cyberdream.nvim" }
+    use ({ 'projekt0n/github-nvim-theme' })
 end)

@@ -120,10 +120,20 @@ _G.packer_plugins = {
     path = "/Users/ajdosgalimzan/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  ["cyberdream.nvim"] = {
+    loaded = true,
+    path = "/Users/ajdosgalimzan/.local/share/nvim/site/pack/packer/start/cyberdream.nvim",
+    url = "https://github.com/scottmckendry/cyberdream.nvim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/Users/ajdosgalimzan/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
+  },
+  ["github-nvim-theme"] = {
+    loaded = true,
+    path = "/Users/ajdosgalimzan/.local/share/nvim/site/pack/packer/start/github-nvim-theme",
+    url = "https://github.com/projekt0n/github-nvim-theme"
   },
   harpoon = {
     loaded = true,
@@ -157,10 +167,20 @@ _G.packer_plugins = {
     path = "/Users/ajdosgalimzan/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  ["monokai.nvim"] = {
+    loaded = true,
+    path = "/Users/ajdosgalimzan/.local/share/nvim/site/pack/packer/start/monokai.nvim",
+    url = "https://github.com/tanvirtin/monokai.nvim"
+  },
   neomux = {
     loaded = true,
     path = "/Users/ajdosgalimzan/.local/share/nvim/site/pack/packer/start/neomux",
     url = "https://github.com/nikvdp/neomux"
+  },
+  neovim = {
+    loaded = true,
+    path = "/Users/ajdosgalimzan/.local/share/nvim/site/pack/packer/start/neovim",
+    url = "https://github.com/rose-pine/neovim"
   },
   ["no-clown-fiesta.nvim"] = {
     loaded = true,
@@ -172,15 +192,30 @@ _G.packer_plugins = {
     path = "/Users/ajdosgalimzan/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
+  ["nvim-dap"] = {
+    loaded = true,
+    path = "/Users/ajdosgalimzan/.local/share/nvim/site/pack/packer/start/nvim-dap",
+    url = "https://github.com/mfussenegger/nvim-dap"
+  },
+  ["nvim-dap-ui"] = {
+    loaded = true,
+    path = "/Users/ajdosgalimzan/.local/share/nvim/site/pack/packer/start/nvim-dap-ui",
+    url = "https://github.com/rcarriga/nvim-dap-ui"
+  },
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "/Users/ajdosgalimzan/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
-  ["nvim-tree.lua"] = {
+  ["nvim-nio"] = {
     loaded = true,
-    path = "/Users/ajdosgalimzan/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
-    url = "https://github.com/nvim-tree/nvim-tree.lua"
+    path = "/Users/ajdosgalimzan/.local/share/nvim/site/pack/packer/start/nvim-nio",
+    url = "https://github.com/nvim-neotest/nvim-nio"
+  },
+  ["nvim-solarized-lua"] = {
+    loaded = true,
+    path = "/Users/ajdosgalimzan/.local/share/nvim/site/pack/packer/start/nvim-solarized-lua",
+    url = "https://github.com/ishan9299/nvim-solarized-lua"
   },
   ["nvim-treesitter"] = {
     loaded = true,
@@ -211,6 +246,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/ajdosgalimzan/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
+  },
+  ["solarized.nvim"] = {
+    loaded = true,
+    path = "/Users/ajdosgalimzan/.local/share/nvim/site/pack/packer/start/solarized.nvim",
+    url = "https://github.com/maxmx03/solarized.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
