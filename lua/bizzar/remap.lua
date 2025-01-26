@@ -52,9 +52,10 @@ vim.api.nvim_create_autocmd('TermOpen', {
     end,
 })
 
+vim.api.nvim_set_keymap("i", "<A-BS>", "<C-w>", { noremap = true, silent = true })
+
 vim.keymap.set("n", "<leader>st", function() 
     vim.cmd.vnew()
     vim.cmd.term()
-    vim.cmd.wincmd("J")
-    vim.api.nvim_win_set_height(0, 20)
+    vim.cmd.wincmd("L")
 end)

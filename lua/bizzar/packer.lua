@@ -14,9 +14,15 @@ return require('packer').startup(function(use)
 
     use("nvim-treesitter/nvim-treesitter")
 
+    use("pbrisbin/vim-colors-off")
+
     use("theprimeagen/harpoon")
 
+    use("blazkowolf/gruber-darker.nvim")
+
     use "maxmx03/solarized.nvim"
+
+    use {'nvim-orgmode/orgmode'}
 
     use {
       'VonHeikemen/lsp-zero.nvim',
@@ -52,6 +58,8 @@ return require('packer').startup(function(use)
 
     use 'nyngwang/nvimgelion'
 
+    use 'sainnhe/sonokai'
+
     use 'aktersnurra/no-clown-fiesta.nvim'
 
     use {
@@ -76,4 +84,11 @@ return require('packer').startup(function(use)
 
     use { "scottmckendry/cyberdream.nvim" }
     use ({ 'projekt0n/github-nvim-theme' })
+    use "polirritmico/monokai-nightasty.nvim"
+
+    use {
+      "nvim-neorg/neorg"
+    }
+
+    use("sainnhe/gruvbox-material")
 end)

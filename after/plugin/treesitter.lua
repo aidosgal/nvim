@@ -1,6 +1,6 @@
 require'nvim-treesitter.configs'.setup {
 
-  ensure_installed = { "php" },
+  ensure_installed = { "php", "go"},
 
   sync_install = false,
 

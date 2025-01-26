@@ -135,6 +135,16 @@ _G.packer_plugins = {
     path = "/Users/ajdosgalimzan/.local/share/nvim/site/pack/packer/start/github-nvim-theme",
     url = "https://github.com/projekt0n/github-nvim-theme"
   },
+  ["gruber-darker.nvim"] = {
+    loaded = true,
+    path = "/Users/ajdosgalimzan/.local/share/nvim/site/pack/packer/start/gruber-darker.nvim",
+    url = "https://github.com/blazkowolf/gruber-darker.nvim"
+  },
+  ["gruvbox-material"] = {
+    loaded = true,
+    path = "/Users/ajdosgalimzan/.local/share/nvim/site/pack/packer/start/gruvbox-material",
+    url = "https://github.com/sainnhe/gruvbox-material"
+  },
   harpoon = {
     loaded = true,
     path = "/Users/ajdosgalimzan/.local/share/nvim/site/pack/packer/start/harpoon",
@@ -167,6 +177,11 @@ _G.packer_plugins = {
     path = "/Users/ajdosgalimzan/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  ["monokai-nightasty.nvim"] = {
+    loaded = true,
+    path = "/Users/ajdosgalimzan/.local/share/nvim/site/pack/packer/start/monokai-nightasty.nvim",
+    url = "https://github.com/polirritmico/monokai-nightasty.nvim"
+  },
   ["monokai.nvim"] = {
     loaded = true,
     path = "/Users/ajdosgalimzan/.local/share/nvim/site/pack/packer/start/monokai.nvim",
@@ -176,6 +191,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/ajdosgalimzan/.local/share/nvim/site/pack/packer/start/neomux",
     url = "https://github.com/nikvdp/neomux"
+  },
+  neorg = {
+    loaded = true,
+    path = "/Users/ajdosgalimzan/.local/share/nvim/site/pack/packer/start/neorg",
+    url = "https://github.com/nvim-neorg/neorg"
   },
   neovim = {
     loaded = true,
@@ -232,6 +252,11 @@ _G.packer_plugins = {
     path = "/Users/ajdosgalimzan/.local/share/nvim/site/pack/packer/start/onedark.nvim",
     url = "https://github.com/navarasu/onedark.nvim"
   },
+  orgmode = {
+    loaded = true,
+    path = "/Users/ajdosgalimzan/.local/share/nvim/site/pack/packer/start/orgmode",
+    url = "https://github.com/nvim-orgmode/orgmode"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/Users/ajdosgalimzan/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -252,10 +277,20 @@ _G.packer_plugins = {
     path = "/Users/ajdosgalimzan/.local/share/nvim/site/pack/packer/start/solarized.nvim",
     url = "https://github.com/maxmx03/solarized.nvim"
   },
+  sonokai = {
+    loaded = true,
+    path = "/Users/ajdosgalimzan/.local/share/nvim/site/pack/packer/start/sonokai",
+    url = "https://github.com/sainnhe/sonokai"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/Users/ajdosgalimzan/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["vim-colors-off"] = {
+    loaded = true,
+    path = "/Users/ajdosgalimzan/.local/share/nvim/site/pack/packer/start/vim-colors-off",
+    url = "https://github.com/pbrisbin/vim-colors-off"
   },
   ["vim-kalisi"] = {
     loaded = true,

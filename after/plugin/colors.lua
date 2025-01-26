@@ -1,1 +1,1 @@
-vim.cmd.colorscheme("no-clown-fiesta")
+vim.cmd.colorscheme("off")

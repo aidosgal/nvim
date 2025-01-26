@@ -28,6 +28,8 @@ vim.opt.isfname:append("@-@")
 
 vim.opt.updatetime = 50
 
+vim.opt.laststatus = 0
+
 vim.api.nvim_create_autocmd("FileType", {
   group = vim.api.nvim_create_augroup("SetTabSizeForJS", { clear = true }),
   pattern = { "javascript", "javascriptreact", "typescript", "typescriptreact", "jsx", "tsx" },
