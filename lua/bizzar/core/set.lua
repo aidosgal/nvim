@@ -34,3 +34,6 @@ vim.api.nvim_set_keymap("n", "<D-v>", '"+p', { noremap = true, silent = true })
 vim.api.nvim_set_keymap("i", "<D-v>", '<C-R>+', { noremap = true, silent = true })
 
 vim.opt.colorcolumn = "200"
+
+vim.o.laststatus = 0
+
