@@ -1,12 +1,20 @@
 return {
-    'tanvirtin/monokai.nvim',
-    lazy = false,
-    priority = 1000,
-    opts = {
-        disable_background = true,
-        styles = {
-            italic = false,
+    {
+        'tanvirtin/monokai.nvim',
+        lazy = false,
+        priority = 1000,
+        opts = {
+            disable_background = true,
+            styles = {
+                italic = false,
+            },
         },
     },
+    {
+        "folke/tokyonight.nvim",
+        lazy = false,
+        priority = 1000,
+        opts = {},
+    }
 }
 

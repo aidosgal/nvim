@@ -3,7 +3,7 @@ require("bizzar.core.set")
 
 require("bizzar.lazy")
 
-vim.cmd.colorscheme('monokai')
+vim.cmd.colorscheme('tokyonight')
 vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
 vim.api.nvim_set_hl(0, "NormalNC", { bg = "none" })
 
